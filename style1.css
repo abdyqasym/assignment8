@@ -1,0 +1,242 @@
+
+@media (max-width: 768px) 
+{
+    .card {
+        width: 100% !important;
+    }
+    .navbar-brand {
+       font-size: 1.2rem;
+    }
+}
+html, body {
+  height: 100%;              
+  display: flex;
+  flex-direction: column;   
+  background-color: #ffeff6 !important;
+}
+.my-navbar{
+    background-color: #84e4fc;
+}
+
+main {
+  flex:1;                 
+}
+
+#h1{
+    color: #7F55B1;
+    display: inline block;
+    font-family:'Times New Roman', Times, serif !important;
+    cursor: grab;
+    font-size: 3.5rem;
+}
+.my-navbar .nav-link:hover{
+    color:deeppink;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.navbar-brand:hover{
+    color:white !important;
+    transform: scale(1.1);
+}
+.my-footer{
+    background-color: #ffeff6 !important;
+}
+.page:hover{
+    transform: translateX(10px);
+    transform: scale(1.1);
+
+}
+.btn1{
+    background-color:#F7CFD8 !important;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #eda1b3 !important;
+    transform: scale(1.1);
+}
+
+.btn4{
+    background-color:#f0f768 !important;
+    cursor: pointer;
+}
+.btn4:hover{
+    background-color: #828720 !important;
+    transform: scale(1.1);
+}
+
+.btn3{
+    background-color:#a17efa !important;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #6052b2 !important;
+    transform: scale(1.1);
+}
+
+.btn2{
+    background-color:#87f1c6 !important;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #549c69 !important;
+    transform: scale(1.1);
+}
+
+.carousel-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 520px;
+    border-radius: 10px;
+}
+.carousel-inner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.carousel-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.carousel-image.active{
+    display: block;
+}
+.carousel-btn{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0,0.1);
+}
+.carousel-btn:hover{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.carousel-btn.left{
+    left: 10px;
+}
+.carousel-btn.right{
+    right: 10px;
+}
+.title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #f0f768 !important;
+    -webkit-text-stroke: 0.5px black ;
+}
+
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.gal{
+    color:crimson;
+}
+.test{
+    color:#3948d2;
+}
+.gen{
+    color:rgb(105, 178, 31);
+}
+.game{
+    color:deeppink;
+}
+
+.contact{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+.col{
+    text-align: center;
+}
+
+.c{
+    margin-top:30px;
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.t{
+    cursor: pointer;
+}
+
+button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button:hover { background: #ffd633; }
+
+  .card {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+#card {
+        font-size: 24px;
+        margin: 20px 0;
+        min-height: 40px;
+        font-weight: bold;
+    }
+#info {
+        font-size: 18px;
+        margin: 10px 0;
+        min-height: 25px;
+    }
+button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+    }
+.card-selection {
+    text-align: left;
+    margin: 20px 0;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    }
+.card-option {
+        margin: 8px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
